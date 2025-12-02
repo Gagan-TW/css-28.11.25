@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+.relative {
+position: relative;
+background-color: lightgray;
+width: 400px;
+height: 300px;
+top: 50px;
+left: 20px;
+}
+
+.absolute {
+position: absolute;
+background-color: lightpink;
+width: 70px;
+height: 50px;
+top: 20px;
+right: 20px;
+}
+
+.fixed {
+    padding: 10px 20px;
+    top: 100px;
+    left: 300px;
+    position: fixed;
+    color:blue;
+    background-color: beige;
+
+}
+
+
+.sticky {
+    padding: 10px 20px;
+    top:0;
+    position: sticky;
+    color:rgb(0, 255, 153);
+    background-color: rgb(245, 220, 220);
+}
+
+.block {
+    background-color: lightblue;
+    width: 500px;
+    height: 400px;
+}
